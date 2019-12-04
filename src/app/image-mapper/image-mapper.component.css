@@ -1,0 +1,19 @@
+.circle{
+  height:20px;
+  width:20px;
+  border:1px solid green;
+  position:absolute;
+  top:0;
+  left:0;
+  border-radius: 100%;
+  cursor:pointer;
+  border-color: transparent;
+}
+
+.circle:hover, .circle.highlight{
+  border-color: green;
+}
+
+.circle-con{
+  width:100%;
+}

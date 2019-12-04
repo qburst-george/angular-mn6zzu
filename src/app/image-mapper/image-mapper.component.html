@@ -1,0 +1,7 @@
+<pinch-zoom>
+	<img #imageEl [src]="imagePath" alt="" (load)="initCoords()">
+	<div class="circle-con">
+		<div class="circle" [class.highlight]="selectedItem?.id === coordinateObj?.id" *ngFor="let coordinateObj of coordinates" [style.width]="coordinateObj?.radius" [style.height]="coordinateObj?.radius"
+			[style.top]="coordinateObj?.positionY" [style.left]="coordinateObj?.positionX" (click)="onItemSelect(coordinateObj)"></div>
+	</div>
+</pinch-zoom>

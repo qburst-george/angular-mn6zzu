@@ -1,0 +1,16 @@
+<!-- <pinch-zoom>
+	<img #imageEl src="https://raw.githubusercontent.com/george3447/angular-k8qnba/master/src/download_img.png" alt="" usemap="#map1" (load)="initCoords()">
+	<map id="map1" name="map1">
+    <area shape="circle" alt="" title="" coords="{{coordinates}}" href="#" target="" />
+  </map>
+	<div class="circle-con">
+		<div class="circle" [class.highlight]="selectedItem?.id === coordinateObj.id" *ngFor="let coordinateObj of coordinates" [style.width]="coordinateObj?.radius" [style.height]="coordinateObj?.radius"
+			[style.top]="coordinateObj?.positionY" [style.left]="coordinateObj?.positionX" (click)="onItemSelect(coordinateObj)"></div>
+	</div>
+</pinch-zoom>
+<br><br>
+<pre>Selected Coordinates: {{selectedItem | json}}</pre> -->
+
+
+<image-mapper [imagePath]="imagePath" [coordinates]="coordinates" (select)="onItemSelect($event)"></image-mapper>
+<pre>Selected Coordinates: {{selectedItem | json}}</pre>
