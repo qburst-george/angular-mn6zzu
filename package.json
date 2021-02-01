@@ -14,7 +14,7 @@
     "ngx-pinch-zoom": "^2.0.2",
     "pinch-zoom-js": "2.3.4",
     "rxjs": "6.5.3",
-    "tslib": "^1.10.0",
+    "tslib": "2.1.0",
     "zone.js": "0.9.1"
   },
   "scripts": {
