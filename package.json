@@ -16,7 +16,7 @@
     "rxjs": "6.5.3",
     "tslib": "^1.10.0",
     "zone.js": "0.11.3",
-    "express": "4.17.1"
+    "express": "4.17.0"
   },
   "scripts": {
     "ng": "ng",
